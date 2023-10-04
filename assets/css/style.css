@@ -556,6 +556,12 @@ section {
   margin-top: 44px;
 }
 
+.about .row p {
+  text-align: justify;
+  text-indent: 10%
+  
+}
+
 .about .icon-box i {
   font-size: 48px;
   float: left;
