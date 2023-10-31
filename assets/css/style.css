@@ -552,14 +552,13 @@ section {
   color: #21413c;
 }
 
-.about .icon-box {
-  margin-top: 44px;
-}
-
-.about .row p {
+#about > div > div > div.col-xl-6.col-lg-5.pt-5.pt-lg-0 > p{
   text-align: justify;
   text-indent: 10%
-  
+}
+
+.about .icon-box {
+  margin-top: 44px;
 }
 
 .about .icon-box i {
@@ -1038,6 +1037,12 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+.swiper-slide img{
+  max-height: 600px;
+  object-fit: contain;
+
 }
 
 /*--------------------------------------------------------------
