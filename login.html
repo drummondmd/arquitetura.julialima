@@ -19,7 +19,7 @@
 <body class="text-center">
   <form class="form-signin">
     <img class="mb-4" src="./assets/img/logo.ico" alt="" width="72" height="72">
-    <h1 class="h3 mb-3 font-weight-normal">Cliente e Arquiteto, entre  em sua área exclusiva</h1>
+    <h1 class="h3 mb-3 font-weight-normal">Cliente e Arquiteto, entre  em sua área exclusiva:</h1>
     <label for="inputEmail" class="sr-only">Email</label>
     <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
     <label for="inputPassword" class="sr-only">Senha</label>
@@ -37,7 +37,10 @@
   </form>
 
 <script>
-document.querySelector("body > form > button").addEventListener(onclick,alert("oi"))
-</script>
+document.querySelector("button").addEventListener("click",onClick);
+
+function onClick(){
+alert("Ainda em desenvolvimento");
+}</script>
 </body>
 </html>
